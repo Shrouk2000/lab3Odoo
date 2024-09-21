@@ -1,0 +1,6 @@
+<odoo>
+    <menuitem id="menu_hms_root" name="Hospital Management" sequence="1"/>
+    <menuitem id="menu_hms_patient" name="Patients" parent="menu_hms_root" action="action_patient" sequence="1"/>
+    <menuitem id="menu_hms_department" name="Departments" parent="menu_hms_root" action="action_department" sequence="2"/>
+    <menuitem id="menu_hms_doctor" name="Doctors" parent="menu_hms_root" action="action_doctor" sequence="3"/>
+</odoo>
